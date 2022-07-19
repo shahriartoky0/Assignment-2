@@ -1,0 +1,58 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*---------- 
+first-part CSS 
+---------- */
+.first-rectangle {
+    background-color: black;
+    width: 1321px;
+    height: 646px;
+    margin: 50px 140px 130px 140px;
+    background-image: url(assets/image-1.png);
+    background-size: 581px, 613px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.first-rectangle:hover img {
+    transform: translate(-900px, 300px) rotate(180deg);
+}
+
+.first-rectangle img {
+    width: 100px;
+    position: relative;
+    top: -330px;
+    left: 1100px;
+    transition: 2s ease-in-out;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: column;
+    width: 531px;
+    height: 424px;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    padding-left: 106px;
+
+
+}
+
+.button-style {
+    background-color: #DD0000;
+    border-radius: 7px;
+    color: white;
+    padding: 16px 25px;
+}
