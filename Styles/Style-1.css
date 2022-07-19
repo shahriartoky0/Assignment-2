@@ -13,7 +13,8 @@ first-part CSS
     background-color: black;
     width: 1321px;
     height: 646px;
-    margin: 50px 140px 130px 140px;
+    margin: 50px 140px 130px 110px;
+    border-radius: 40px;
     background-image: url(assets/image-1.png);
     background-size: 581px, 613px;
     background-repeat: no-repeat;
@@ -46,8 +47,6 @@ h2 {
     justify-items: center;
     color: white;
     padding-left: 106px;
-
-
 }
 
 .button-style {
@@ -55,4 +54,33 @@ h2 {
     border-radius: 7px;
     color: white;
     padding: 16px 25px;
+}
+
+/*-------------------
+ second part style  
+--------------------*/
+.black-box {
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+.box-element {
+    width: 252px;
+    height: 64px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #161616;
+}
+
+#blog {
+    background-color: #DD0000;
+    color: white;
 }
