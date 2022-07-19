@@ -84,3 +84,18 @@ h2 {
     background-color: #DD0000;
     color: white;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content img {
+    width: 312px;
+    height: 175px;
+}
+
+.content-info {
+    display: flex;
+    justify-content: space-between;
+}
