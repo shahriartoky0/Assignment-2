@@ -71,6 +71,7 @@ h2 {
     background-color: black;
     padding-top: 5px;
     text-align: center;
+    border-radius: 10px;
 
 }
 
@@ -122,4 +123,39 @@ h2 {
 .content-info {
     display: flex;
     justify-content: space-around;
+}
+
+/*-------
+ footer part 
+ --------- */
+
+footer {
+    width: 1510px;
+    height: 444px;
+    background-color: #161616;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+
+}
+
+hr {
+    width: 1320px;
+    height: 0px;
+    margin: 0 100px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.last-line {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.last-line-element {
+    color: #B9B9B9;
 }
