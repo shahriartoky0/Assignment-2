@@ -79,6 +79,10 @@ button:hover {
 
 }
 
+.black-box a {
+    text-decoration: none;
+}
+
 .box-element {
     width: 252px;
     height: 64px;
@@ -91,19 +95,16 @@ button:hover {
     color: #161616;
 }
 
-.black-box a {
-    text-decoration: none;
-}
-
-#blog {
+#upcoming-match {
     background-color: #DD0000;
     color: white;
 }
 
-.content-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.match-box {
+    display: flex;
+    justify-items: center;
 }
+
 
 .content {
     display: flex;
@@ -112,14 +113,14 @@ button:hover {
     margin-bottom: 10px;
     /* box-shadow: 2px 2px 5px gray; */
     border-radius: 10px;
-    border: .5px solid #E8E8E8;
+    /* border: .5px solid #E8E8E8; */
+    border: 2px dotted gainsboro;
+    align-items: center;
 
 }
 
-.content img {
-    width: 312px;
-    height: 175px;
-    border-radius: 10px;
+.vs {
+    padding: 0 10px;
 }
 
 .content button {
@@ -127,13 +128,10 @@ button:hover {
     /* background-color: white; */
 }
 
-.content h3 {
-    text-align: center;
-}
 
-.content-info {
-    display: flex;
-    justify-content: space-around;
+.content-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #tablet-button {
@@ -171,15 +169,13 @@ hr {
 
 }
 
-.last-line-element {
-    color: #B9B9B9;
-}
-
 /* -----------
 social links
 -------------- */
 
-
+.last-line-element {
+    color: #B9B9B9;
+}
 
 .fa-brands {
     color: white;
@@ -368,15 +364,4 @@ media queries
         justify-content: space-evenly;
     }
 
-    #tablet-button {
-        visibility: visible;
-        width: 25%;
-        font-size: 20px;
-        background-color: cornflowerblue;
-        border-radius: 10px;
-        align-items: center;
-        position: relative;
-        margin-top: 20px;
-        left: 80%;
-    }
 }
