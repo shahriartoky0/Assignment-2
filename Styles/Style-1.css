@@ -218,11 +218,16 @@ media queries
         background-position: top right;
     }
 
+    .first-rectangle img {
+        width: 15%;
+        position: relative;
+        top: -400px;
+        left: 210px;
+        transition: 2s ease-in-out;
+    }
 
-
-
-    hr {
-        display: none;
+    .first-rectangle:hover img {
+        transform: translate(-190px, 40px) rotate(180deg);
     }
 
     .second-part {
@@ -241,6 +246,13 @@ media queries
 
     }
 
+    hr {
+        width: 100px;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
     footer .last-line {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -252,3 +264,5 @@ media queries
 
 /* Tablet */
 /* @media only screen and (min-width: 688px) and (max-width:992px) */
+
+@media only screen and (min-width: 688px) and (max-width:992px) {}
