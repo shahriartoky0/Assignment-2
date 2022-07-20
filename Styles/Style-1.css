@@ -197,7 +197,8 @@ media queries
     .first-brief,
     .button-style {
         width: 100%;
-        color: yellow;
+        height: auto;
+        color: white;
         font-size: 16px;
         margin: 10px 5px;
         padding: 30px 0 0 0;
